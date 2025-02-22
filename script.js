@@ -9,9 +9,23 @@
 	
 // td1.innerText=`New Cell${i}`
 // td2.innerText=`New Cell${i+1}`
-// 	tableNode.InsertBefore(newNode,tr)
+// 	tableNode.InsertBefore(newNode,td)
 	
-	function insert_Row() {
+	
+
+
+
+
+
+	
+	
+	
+	
+// 		tableNode.appendChild(insert)
+// }
+
+
+function insert_Row() {
     // Get the table element
     let table = document.getElementById("sampleTable");
     
@@ -33,15 +47,3 @@
     // Insert the new row at the top of the table
     table.insertBefore(newRow, table.firstChild);
 }
-
-
-
-
-
-
-	
-	
-	
-	
-// 		tableNode.appendChild(insert)
-// }
